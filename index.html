@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nations</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body >
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="title"><a href="">The Country Compendium</a></h2>
+            <p class="theme">
+                <ion-icon name="moon-outline" ></ion-icon></ion-icon>&nbsp;&nbsp;<span id="themeText">Dark Mode</span>
+            </p>
+        </div>
+    </header>
+    <div class="search-filter-container">
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="input" type="text" placeholder="Search for a country.....">
+        </div>
+        <select class="filter" >
+            <option value="Filter by region" hidden>Filter by region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+    </div>
+    <main>
+        <div class="countries-info">
+          
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
